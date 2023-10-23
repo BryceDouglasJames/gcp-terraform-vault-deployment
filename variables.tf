@@ -94,7 +94,7 @@ variable "vault_log_level" {
 
 variable "vault_machine_type" {
   type        = string
-  default     = "e2-standard-2"
+  default     = "n2-standard-2"
   description = "Machine type to use for Vault instances"
 }
 
