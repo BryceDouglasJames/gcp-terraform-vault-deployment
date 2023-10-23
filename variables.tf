@@ -26,7 +26,7 @@ variable "load_balancing_scheme" {
 variable "network" {
   type        = string
   default     = ""
-  description = "description"
+  description = "The self link of the VPC network for Vault. By default, one will be created for you"
 }
 
 variable "project_id" {
