@@ -2,7 +2,7 @@ module "vault" {
   source = "terraform-google-modules/vault/google"
 
   allow_ssh                    = var.allow_ssh
-  domain                       = var.domain 
+  domain                       = var.domain
   host_project_id              = var.host_project_id
   load_balancing_scheme        = var.load_balancing_scheme
   network                      = var.network
