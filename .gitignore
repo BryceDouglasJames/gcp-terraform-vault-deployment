@@ -1,2 +1,10 @@
+# environment vars
 *.env
-.terraform
+
+# terraform
+.terraform*
+terraform.tfstate*
+
+
+# project specific
+ca.crt
